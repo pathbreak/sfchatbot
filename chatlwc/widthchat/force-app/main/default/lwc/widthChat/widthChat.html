@@ -1,0 +1,21 @@
+<template>
+  <lightning-card title="Product Assistant" icon-name="custom:custom14">
+    <div class="slds-m-around_medium">
+
+      <div class="input-area">
+         <lightning-textarea 
+            placeholder="Enter your query"
+            value={userQuery}
+            onchange={handleInputChange}>
+        </lightning-textarea>
+
+         <lightning-button label="Send" onclick={sendQuery}>
+         </lightning-button>
+      </div>
+
+      <div class="chat-area">
+      </div>
+
+    </div>
+  </lightning-card>
+</template>
