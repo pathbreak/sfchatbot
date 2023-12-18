@@ -1,0 +1,17 @@
+{
+  "name": "server-for-salesforce-lwc-chatbot",
+  "version": "1.0.0",
+  "description": "Server that acts as product assisting backend for a salesforce chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pthbrk",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "openai": "^4.23.0"
+  }
+}
